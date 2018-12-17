@@ -1,0 +1,32 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "Apartment Management system for various types of residences and public houses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srinivas1043/apartmentabsolutes.git"
+  },
+  "keywords": [
+    "House",
+    "Management"
+  ],
+  "author": "Srinivas Muralidharan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Srinivas1043/apartmentabsolutes/issues"
+  },
+  "homepage": "https://github.com/Srinivas1043/apartmentabsolutes#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.0",
+    "morgan": "^1.9.1"
+  }
+}
